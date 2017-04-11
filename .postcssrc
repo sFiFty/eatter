@@ -1,0 +1,9 @@
+{
+  "plugins": {
+    "postcss-import": {
+      "glob": true,
+      "path": "./src/css"
+    },
+    "postcss-cssnext": {}
+  }
+}

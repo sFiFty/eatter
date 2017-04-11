@@ -1,0 +1,26 @@
+/* css/shared/colors.css */
+
+:root {
+  --color-white: #ffffff;
+  --color-black: #000000;
+  --color-bg: #ecf5fd;
+  --color-main1: #0079c4;
+  --color-main2: #2C4059;
+  --color-error: #ee4242;
+
+  --color-concrete: #f2f2f2;
+  --color-alabaster: #f8f8f8;
+  --color-seashell: #f1f1f1;
+  --color-gallery: #dddddd;
+  --color-mercury: #E5E5E5;
+  --color-alto: #d8d8d8;
+  --color-dusty-gray: #999999;
+  --color-dove-gray: #666666;
+  --color-error-red: #ff0000;
+  --color-mine-shaft: #333333;
+  --color-silver: #cccccc;
+  --color-taupe-gray: #888888;
+  --color-light-green: #22BA65;
+  --color-pink: #EC286B;
+  --color-yellow: #f9f1e6;
+}

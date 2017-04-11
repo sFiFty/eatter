@@ -1,0 +1,8 @@
+@import "shared/colors.css";
+@import "shared/typography.css";
+
+.home {
+  color: var(--color-black);
+  text-align: center;
+  font-family: var(--font-heebo-md);
+}

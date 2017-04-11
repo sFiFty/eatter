@@ -1,0 +1,39 @@
+@import "shared/colors.css";
+@import "shared/typography.css";
+
+html {
+  box-sizing: border-box;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  min-width: 320px;
+}
+
+body {
+  position: fixed;
+  color: var(--color-black);
+  background-color: var(--color-bg);
+  font-family: var(--font-heebo-md);
+
+  & *,
+  & *::before,
+  & *::after {
+    box-sizing: inherit;
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -webkit-font-smoothing: antialiased;
+    -webkit-overflow-scrolling: touch;
+    -moz-osx-font-smoothing: grayscale;
+  }
+}
+
+a {
+  text-decoration: none;
+}
+

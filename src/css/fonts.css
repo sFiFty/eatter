@@ -1,0 +1,16 @@
+ /* fonts */
+@import "shared/typography.css";
+
+@font-face {
+  font-family: var(--font-heebo);
+  src: url("~assets/fonts/Heebo-Regular.woff2") format('woff2');
+  font-style: normal;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: var(--font-heebo-md);
+  src: url("~assets/fonts/Heebo-Medium.woff2") format('woff2');
+  font-style: normal;
+  font-weight: 500;
+}
