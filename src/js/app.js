@@ -8,6 +8,7 @@ import thunk from 'redux-thunk';
 import 'css/main.sass';
 
 import Home from './components/pages/Home';
+import Users from './components/pages/Users';
 
 import rootReducer from './reducers';
 
@@ -29,7 +30,8 @@ if (module.hot) {
 ReactDOM.render(
   <Provider store={store}>
     <Router history={browserHistory}>
-      <Route path="/home" component={Home} />
+      <Route path="/" component={Home} />
+      <Route path="/users" component={Users} />
     </Router>
   </Provider>,
   document.getElementById('app')

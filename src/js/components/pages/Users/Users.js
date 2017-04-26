@@ -25,13 +25,8 @@ export default class Home extends Component {
   render() {
     return (
       <div className="home">
-        <h1>Home Page</h1>
-        <img src={image} />
-        <div
-          onClick={() => this.props.dispatch(start())}
-        >
-        </div>
-        <Link to="/users">Users</Link>
+        <h1>Users Page</h1>
+        <Link to="/">Home</Link>
       </div>
     );
   }
